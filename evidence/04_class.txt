@@ -1,1 +1,1 @@
-CC-BSE-5A"/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+CC-BSE-5A
