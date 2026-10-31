@@ -6,11 +6,10 @@ Commands:
 - printenv | grep '^PATH='
 - printenv | grep '^LANG='
 - printenv | grep '^PWD='
-
 Answers:
-- PATH: [Add your actual output]
-- LANG: [Add your actual output]
-- PWD: [Add your actual output]
+- PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/fatimajaleel
+- LANG=en_US.UTF-8
+- PWD=/home/fatimajaleel/lab07-env-ssh-firewall
 
 ## Job 2: Temporary Student Variables
 
@@ -56,7 +55,7 @@ Commands:
 - sudo ufw reload
 
 Results:
-- Initial ping: [Add actual result]
-- Ping after blocking: [Add actual result]
-- Ping after restoring: [Add actual result]
+- Initial ping: Successful replies received.
+- Ping after blocking: 4 packets sent, 0 received, 100% packet loss.
+- Ping after restoring: Successful replies received.
 - Final firewall rule: ACCEPT
